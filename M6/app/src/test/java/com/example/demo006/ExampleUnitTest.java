@@ -1,4 +1,4 @@
-package com.example.shoppingcart;
+package com.example.demo006;
 
 import org.junit.Test;
 

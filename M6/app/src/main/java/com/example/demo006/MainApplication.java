@@ -1,4 +1,4 @@
-package com.example.shoppingcart;
+package com.example.demo006;
 
 import android.app.Application;
 import android.graphics.Bitmap;

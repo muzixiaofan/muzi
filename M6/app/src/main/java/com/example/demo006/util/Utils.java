@@ -1,4 +1,4 @@
-package com.example.shoppingcart.util;
+package com.example.demo006.util;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

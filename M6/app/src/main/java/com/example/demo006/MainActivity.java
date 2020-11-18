@@ -1,4 +1,4 @@
-package com.example.shoppingcart;
+package com.example.demo006;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,14 +18,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.shoppingcart.bean.CartInfo;
-import com.example.shoppingcart.bean.GoodsInfo;
-import com.example.shoppingcart.database.CartDBHelper;
-import com.example.shoppingcart.database.GoodsDBHelper;
-import com.example.shoppingcart.util.DateUtil;
-import com.example.shoppingcart.util.FileUtil;
-import com.example.shoppingcart.util.SharedUtil;
-import com.example.shoppingcart.util.Utils;
+import com.example.demo006.bean.CartInfo;
+import com.example.demo006.bean.GoodsInfo;
+import com.example.demo006.database.CartDBHelper;
+import com.example.demo006.database.GoodsDBHelper;
+import com.example.demo006.util.DateUtil;
+import com.example.demo006.util.FileUtil;
+import com.example.demo006.util.SharedUtil;
+import com.example.demo006.util.Utils;
 
 import java.util.ArrayList;
 
@@ -44,12 +44,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // 隐藏标题栏
         getSupportActionBar().hide();
-
         TextView tv_title = findViewById(R.id.tv_title);
         tv_count = findViewById(R.id.tv_count);
         ll_channel = findViewById(R.id.ll_channel);
         findViewById(R.id.iv_cart).setOnClickListener(this);
-        tv_title.setText("李瑾璠的商店");
+        tv_title.setText("李瑾璠的商城");
     }
 
     @Override

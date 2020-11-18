@@ -1,4 +1,4 @@
-package com.example.shoppingcart;
+package com.example.demo006;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,12 +13,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.shoppingcart.bean.CartInfo;
-import com.example.shoppingcart.bean.GoodsInfo;
-import com.example.shoppingcart.database.CartDBHelper;
-import com.example.shoppingcart.database.GoodsDBHelper;
-import com.example.shoppingcart.util.DateUtil;
-import com.example.shoppingcart.util.SharedUtil;
+import com.example.demo006.bean.CartInfo;
+import com.example.demo006.bean.GoodsInfo;
+import com.example.demo006.database.CartDBHelper;
+import com.example.demo006.database.GoodsDBHelper;
+import com.example.demo006.util.DateUtil;
+import com.example.demo006.util.SharedUtil;
 
 public class ShoppingDetailActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView tv_title;
@@ -147,6 +147,4 @@ public class ShoppingDetailActivity extends AppCompatActivity implements View.On
         }
         return true;
     }
-
 }
-

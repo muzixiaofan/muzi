@@ -1,4 +1,4 @@
-package com.example.shoppingcart;
+package com.example.demo006;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,12 +19,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.shoppingcart.bean.CartInfo;
-import com.example.shoppingcart.bean.GoodsInfo;
-import com.example.shoppingcart.database.CartDBHelper;
-import com.example.shoppingcart.database.GoodsDBHelper;
-import com.example.shoppingcart.util.SharedUtil;
-import com.example.shoppingcart.util.Utils;
+import com.example.demo006.bean.CartInfo;
+import com.example.demo006.bean.GoodsInfo;
+import com.example.demo006.database.CartDBHelper;
+import com.example.demo006.database.GoodsDBHelper;
+import com.example.demo006.util.SharedUtil;
+import com.example.demo006.util.Utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

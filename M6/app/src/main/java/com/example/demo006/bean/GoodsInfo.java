@@ -1,6 +1,6 @@
-package com.example.shoppingcart.bean;
+package com.example.demo006.bean;
 
-import com.example.shoppingcart.R;
+import com.example.demo006.R;
 
 import java.util.ArrayList;
 
@@ -43,18 +43,18 @@ public class GoodsInfo {
             "COLOR KEY珂拉琪 小黑镜唇釉漆光系列 唇蜜口红持久显白不易沾杯"
     };
     // 声明一个手机商品的价格数组
-    private static float[] mPriceArray = {188, 399, 290, 275, 198, 598,34,54};
+    private static float[] mPriceArray = {188, 399, 290, 275, 198, 598,134,154};
     // 声明一个手机商品的小图数组
     private static int[] mThumbArray = {
-            R.drawable.xiaoyang_s, R.drawable.sanyan_s, R.drawable.konglong_s,
-            R.drawable.yangzai_s, R.drawable.yazi_s, R.drawable.chouzi_s,
-            R.drawable.one_s,R.drawable.kefour_s
+            R.drawable.a001_s, R.drawable.a002_s, R.drawable.a003_s,
+            R.drawable.a004_s, R.drawable.a005_s, R.drawable.a006_s,
+            R.drawable.a007_s, R.drawable.a008_s
     };
     // 声明一个手机商品的大图数组
     private static int[] mPicArray = {
-            R.drawable.xiaoyang, R.drawable.sanyan, R.drawable.konglong,
-            R.drawable.yangzai, R.drawable.yazi, R.drawable.chouzi,
-            R.drawable.one,R.drawable.kefour
+            R.drawable.a001, R.drawable.a002, R.drawable.a003,
+            R.drawable.a004, R.drawable.a005, R.drawable.a006,
+            R.drawable.a007, R.drawable.a008
     };
 
     // 获取默认的手机信息列表

@@ -1,6 +1,5 @@
-package com.example.shoppingcart.util;
+package com.example.demo006.util;
 
-import android.annotation.SuppressLint;
 import android.annotation.SuppressLint;
 import android.text.TextUtils;
 
