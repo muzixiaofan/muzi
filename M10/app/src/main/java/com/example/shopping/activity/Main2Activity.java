@@ -104,10 +104,10 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         list_path.add(R.mipmap.image2);
         list_path.add(R.mipmap.image3);
         list_path.add(R.mipmap.image4);
-        list_title.add("不要生气");
-        list_title.add("不要生气");
-        list_title.add("生气给傻瓜");
-        list_title.add("留余地");
+        list_title.add("我想抬头");
+        list_title.add("暖阳春草");
+        list_title.add("在你眼里");
+        list_title.add("撒野奔跑");
         //设置内置样式，共有六种可以点入方法内逐一体验使用。
         banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE_INSIDE);
         //设置图片加载器，图片加载器在下方
